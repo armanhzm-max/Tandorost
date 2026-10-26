@@ -1,112 +1,145 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=38&pause=1000&color=19C37D&center=true&vCenter=true&width=760&lines=Tandorost;A+Smarter+Way+to+Wellness;Health+%E2%80%A2+Nutrition+%E2%80%A2+AI" alt="Tandorost animated title" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=42&pause=900&color=16A085&center=true&vCenter=true&width=850&height=90&lines=TANDOROST;Healthier+habits%2C+clearer+choices;Wellness+%C2%B7+Nutrition+%C2%B7+Technology" alt="Tandorost — animated project title" />
 
-Your health journey, made clearer.
-<strong>Tandorost</strong> is a health-focused web platform designed to make wellness information and nutrition support easier to explore.
-<img src="https://img.shields.io/badge/Project-Tandorost-19C37D?style=for-the-badge" alt="Project: Tandorost" />
-<img src="https://img.shields.io/badge/Focus-Health%20%26%20Nutrition-2D9CDB?style=for-the-badge" alt="Focus: Health and Nutrition" />
-<img src="https://img.shields.io/badge/Status-In%20Development-F2994A?style=for-the-badge" alt="Status: In Development" />
+A health and wellness project in progress
+Exploring practical tools for nutrition, everyday wellness, and AI-assisted food understanding.
+
+<img src="https://img.shields.io/badge/Project-In%20Development-16A085?style=flat-square" alt="Project status: In development" />
+<img src="https://img.shields.io/badge/Platform-Web-2980B9?style=flat-square" alt="Platform: Web" />
+<img src="https://img.shields.io/badge/AI-Experimental-8E44AD?style=flat-square" alt="AI features: Experimental" />
+<img src="https://img.shields.io/badge/License-Not%20Specified-lightgrey?style=flat-square" alt="License not specified" />
 
 </div>
 
-✨ About Tandorost
-Tandorost is an evolving health and wellness project that brings together practical health-related features and nutrition assistance in one web experience. The goal is to make everyday wellness tools approachable, useful, and easier to navigate.
-Note: Features and availability may change as development continues. Tandorost is not a substitute for professional medical advice, diagnosis, or treatment.
+Contents
+- About
+- Highlights
+- AI and nutrition tools
+- Technology and project layout
+- Getting started
+- Local AI setup
+- Screenshots and animations
+- Roadmap
+- Privacy and health disclaimer
+- Contributing
+- Project status
+About
+Tandorost is an evolving web project focused on making health and nutrition tools easier to explore. It brings together nutrition-related utilities, experimental AI-assisted food interpretation, and engagement features in one place.
 
-🌿 What We're Building
+The project is actively evolving, so the exact feature set and setup steps may vary by version. This README describes the intended project direction and common files; check the repository itself for the definitive implementation.
+Highlights
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1300&color=2D9CDB&center=true&vCenter=true&width=650&lines=Nutrition+support;AI-assisted+food+estimation;A+more+accessible+health+experience" alt="Animated feature highlights" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=23&pause=1200&color=2471A3&center=true&vCenter=true&width=760&height=45&lines=Nutrition+tools;AI-assisted+food+parsing;Language-aware+experience;A+project+that+keeps+evolving" alt="Animated Tandorost highlights" />
 </div>
 
-🥗 Nutrition assistance
-Tools intended to help users explore food and nutrition information in a more convenient way.
-🤖 AI-assisted food estimation
-The project includes food-estimation and AI food-parsing components intended to assist with interpreting food descriptions. Estimates can be imperfect and should not be treated as medical or dietary advice.
-🎁 Weekly lottery
-A weekly lottery feature is included in the project to support engagement.
-🌐 Language support
-The interface includes language-switching functionality as part of the effort to make the experience more accessible.
-🧠 AI Components
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=19C37D&center=true&vCenter=true&width=700&lines=Food+estimation;Natural-language+food+parsing;Local+AI+server+support" alt="Animated AI component list" />
-</div>
+Area	What it is for
+🥗 Nutrition assistance	Helps users explore food-related information in a more convenient way.
+🤖 AI-assisted food parsing	Experiments with interpreting natural-language descriptions of food.
+🎁 Weekly lottery	An engagement feature included in the project.
+🌐 Language switching	Supports a more accessible experience for users who prefer different languages.
 
-Tandorost includes components such as:
+
+Feature availability depends on the version you are running. AI outputs and nutrition estimates may be incomplete or inaccurate.
+
+AI and nutrition tools
+The project includes Python components such as:
 - food_estimator.py — food-estimation logic.
 - ai_food_parser.py — AI-assisted parsing of food descriptions.
-- Optional local model support using a compatible GGUF model and a local inference server.
-Local AI configuration depends on the model file, runtime tools, and settings available on the machine running the project. Do not commit large model files, secrets, or private user data to the repository.
-🏗️ Project Structure
-The repository may include files and folders such as:
+- Local inference support — may use a compatible GGUF model and a local inference server, depending on your setup.
+AI-generated results are estimates, not laboratory measurements or professional dietary guidance. Users should verify important information independently.
+Technology and project layout
+Tandorost uses a Python/Flask-style web application structure. Depending on the version, the repository may look similar to this:
 Tandorost/
 ├── app.py
 ├── templates/
 ├── static/
-├── models/
-├── tools/
+├── models/                  # Optional local model files
+├── tools/                   # Optional local AI runtime tools
 ├── food_estimator.py
 ├── ai_food_parser.py
 ├── run_weekly_lottery.py
-├── start_local_ai.ps1
+├── start_local_ai.ps1       # Optional local AI launcher
+├── requirements.txt         # If included in this version
 └── README.md
-The exact structure can differ between versions. Check the current repository before relying on any optional file or folder.
-🚀 Getting Started
-1. Get the project
-Clone the repository:
+This is an illustrative layout, not a guarantee that every path exists in every release. Confirm filenames and instructions in the checked-out version.
+Getting started
+Requirements
+- A supported Python version compatible with the dependencies in the repository.
+- Git, if you plan to clone the repository.
+- Optional: a compatible local AI runtime and model if you want to use local AI features.
+1. Get the source code
 git clone <YOUR_REPOSITORY_URL>
 cd <YOUR_PROJECT_FOLDER>
-Replace the placeholders with your actual GitHub repository URL and folder name.
-2. Create and activate a virtual environment (recommended)
-Windows PowerShell:
+Replace the placeholders with your actual repository URL and directory name.
+2. Create a virtual environment
+Windows PowerShell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
+If PowerShell blocks activation due to your system's execution policy, use your usual approved Python environment workflow rather than changing security settings without understanding the consequences.
 3. Install dependencies
-If the repository contains a requirements.txt file:
-pip install -r requirements.txt
-If it does not, install the dependencies documented by the current project version.
-4. Run the web application
-Use the startup command documented in the project. For a standard Flask setup, this may be:
+If the repository includes requirements.txt, run:
+python -m pip install -r requirements.txt
+If the file is absent, consult the project files for the dependency list. Do not guess package versions for a production deployment.
+4. Start the application
+For a standard Flask entry point, the command may be:
 python app.py
-Then open the local address printed by Flask in your browser. Do not expose a development server directly to the public internet.
-🖼️ Screenshots & Animations
+Use the startup instructions included with your version if they differ. Open the local URL printed by the application.
+
+Deployment note: Flask's development server is intended for local development, not direct public production use. Choose a suitable production hosting setup before publishing the app.
+Local AI setup
+Some project versions may support a local model through a server running on your computer. The exact model filename, runtime executable, port, and launch command are configuration-dependent.
+
+Before enabling local AI:
+1. Check the current project's setup script and configuration.
+2. Confirm that the model file is present and compatible with your runtime.
+3. Start the local inference server using the command documented by the project.
+4. Start the web app in a separate terminal if the setup requires two processes.
+5. Test the feature locally and review logs if it does not respond.
+Keep model files, private data, access tokens, and credentials out of public Git repositories. Large model files usually belong in local storage or an appropriate artifact-storage solution, not in ordinary source control.
+Screenshots and animations
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&pause=1400&color=F2994A&center=true&vCenter=true&width=620&lines=Designed+to+keep+wellness+approachable;More+improvements+are+on+the+way" alt="Animated project message" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1300&color=D68910&center=true&vCenter=true&width=760&height=45&lines=Simple+to+explore;Built+to+keep+improving;More+to+come" alt="Animated project message" />
 </div>
 
-To add real screenshots or GIF demonstrations, create an assets/ folder in the repository and add your files, for example:
+For a more visual README, add screenshots or a short GIF captured from the actual application. Create an assets/ directory and place your images there:
 assets/
 ├── tandorost-banner.png
 ├── dashboard-preview.png
-└── product-demo.gif
-Then embed them in this README using relative paths, such as:
+└── nutrition-demo.gif
+Then include them with relative paths:
 ![Tandorost banner](assets/tandorost-banner.png)
 
-![Tandorost demo](assets/product-demo.gif)
-These example asset names are placeholders; the images will appear after you add files with matching names. The animated text above is hosted by an external service, so it requires an internet connection and that service to be available.
-🗺️ Roadmap
+![Tandorost feature demo](assets/nutrition-demo.gif)
+These filenames are examples only. The images will display once you add real files with matching names. The animated text in this README is loaded from an external service and therefore requires an internet connection; it is not a locally stored GIF.
+Roadmap
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1100&color=9B51E0&center=true&vCenter=true&width=650&lines=Refine+the+user+experience;Improve+nutrition+assistance;Expand+documentation;Keep+building%2C+step+by+step" alt="Animated roadmap" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1100&color=7D3C98&center=true&vCenter=true&width=760&height=45&lines=Polish+the+experience;Test+nutrition+features;Improve+documentation;Build+step+by+step" alt="Animated roadmap" />
 </div>
 
-- [ ] Continue improving usability and navigation.
-- [ ] Review and refine nutrition-related tools.
-- [ ] Improve setup instructions and project documentation.
-- [ ] Add real screenshots and short GIF demonstrations.
-- [ ] Continue testing and improving reliability.
-🔐 Privacy, Safety & Health Disclaimer
-- Keep API keys, passwords, secret keys, and private configuration out of Git.
-- Avoid committing personal health information or other sensitive user data.
-- AI-generated food estimates may be inaccurate.
-- Tandorost is an informational software project, not a replacement for qualified medical professionals.
-- Before deploying publicly, review authentication, authorization, input validation, data storage, and privacy protections.
-🤝 Contributing
-Ideas, bug reports, and constructive feedback can help Tandorost improve. Before submitting changes, describe the issue or improvement clearly and test your changes locally.
-📌 Project Status
-Tandorost is a work in progress. Features, interface details, and setup steps may evolve as development continues.
+- [ ] Improve navigation and overall usability.
+- [ ] Test and refine food-estimation and parsing behavior.
+- [ ] Document setup requirements and configuration options.
+- [ ] Add real screenshots and short feature demonstrations.
+- [ ] Expand automated tests and improve reliability.
+- [ ] Review security and privacy before public deployment.
+Privacy and health disclaimer
+- Do not commit passwords, API keys, secret values, or private configuration files.
+- Avoid placing personal health information in source control, logs, screenshots, or public issue reports.
+- AI-generated food interpretations and estimates can be wrong; treat them as informational only.
+- Tandorost is software, not a medical device, and does not replace advice, diagnosis, or treatment from qualified healthcare professionals.
+- Before public deployment, review authentication, access control, input validation, dependency security, data retention, and applicable privacy obligations.
+Contributing
+Suggestions, bug reports, and carefully tested improvements are welcome.
+
+When reporting a problem, include the relevant version, the steps needed to reproduce it, and a sanitized error message where possible. Never include passwords, tokens, or personal health information in public issues.
+Project status
+Tandorost is in development. Features, interface details, and installation instructions may change as the project evolves. Please check the latest repository files for the most accurate setup instructions.
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=34&pause=1000&color=19C37D&center=true&vCenter=true&width=650&lines=Coming+Soon;The+journey+continues..." alt="Coming Soon animated text" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=36&pause=1000&color=16A085&center=true&vCenter=true&width=760&height=70&lines=Coming+Soon;The+journey+continues..." alt="Coming Soon — animated closing title" />
 
-Thanks for checking out Tandorost.
+Thanks for visiting Tandorost.
+
+<sub>Built with curiosity. Improved step by step.</sub>
 </div>
