@@ -1,173 +1,260 @@
-# Tandorost 🩺
-### A Smarter Approach to Personal Health Management
+<div align="center">
 
-**Tandorost** is a health-focused web platform designed to bring personal health management, nutrition tracking, scientific knowledge, and AI-assisted tools together in one place.
+# 🩺 Tandorost
 
-The project aims to make health information more accessible and help users better understand their daily habits through a clean, organized, and extensible web application.
+### YOUR HEALTH. YOUR DATA. A SMARTER TOMORROW.
 
-> 🚀 **Coming Soon — Tandorost is under active development.**
+<a href="https://readme-typing-svg.demolab.com">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=10B981&center=true&vCenter=true&width=700&lines=Personal+Health+Management;AI-Assisted+Nutrition;Health+Education+%26+Scientific+Community;The+Future+of+Digital+Health" alt="Animated Tandorost introduction" />
+</a>
+
+<br>
+
+<img src="https://img.shields.io/badge/Project-Under_Development-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Project status" />
+<img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Framework-Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+<img src="https://img.shields.io/badge/Database-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+
+<br><br>
+
+**A new way to connect health management, nutrition, scientific knowledge, and artificial intelligence.**
+
+### 🚀 COMING SOON
+
+</div>
 
 ---
 
-## 🌟 About the Project
+## 🌿 A Healthier Digital Experience
 
-Managing personal health often involves using multiple tools for nutrition, health records, educational resources, and community discussions.
+What if your everyday health tools, nutrition insights, educational resources, and scientific community could live in one place?
 
-Tandorost aims to bring these experiences together in a unified platform, with a focus on usability, modular architecture, and future expansion.
+**Tandorost** is an evolving health-focused web platform designed to bring these experiences together.
 
-The long-term vision is to build a connected health platform where users can access useful tools, explore reliable information, and make more informed decisions about their everyday well-being.
+Built with Python and Flask, Tandorost aims to make personal health management more accessible through an organized user experience, useful digital tools, and AI-assisted features.
 
-## ✨ Key Features
+Our vision is simple:
 
-### 👤 User Accounts
-- User registration and authentication.
-- Personalized access to platform features.
-- Subscription-related functionality.
+> **Make health information easier to understand, personal health tools easier to use, and technology more useful in everyday life.**
+
+---
+
+## ✨ Explore Tandorost
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### 🥗 AI-Assisted Nutrition
-- Natural-language food descriptions.
-- Estimated food quantities and calorie information.
-- A workflow designed to let users review estimates before saving them.
-- Support for local AI inference, with potential for additional AI integrations.
 
-### 📊 Personal Health Tracking
-- Tools for recording and organizing health-related information.
-- A foundation for expanding personal health monitoring features.
+Explore a smarter approach to food tracking.
 
-### 📚 Health Education
-- Health-related articles and educational content.
-- An organized way to explore information about health and well-being.
+- Describe meals using natural language.
+- Estimate food quantities and calories.
+- Review estimates before saving them.
+- Explore local AI integration for supported tasks.
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 Personal Health Tools
+
+Keep useful health-related information organized.
+
+- Record selected health-related information.
+- Access tools designed for personal tracking.
+- Build a foundation for future health features.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📚 Health Knowledge
+
+Discover health information in an organized environment.
+
+- Health articles and educational content.
+- Easier access to useful information.
+- A platform designed to grow with its users.
+
+</td>
+<td width="50%" valign="top">
 
 ### 🔬 Scientific Community
+
+Connect technology with knowledge sharing.
+
 - Community-oriented scientific discussions.
-- Posts and channels designed to support knowledge sharing.
+- Posts and channels.
+- Opportunities for future community improvements.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 🤖 AI Integration
-- An architecture intended to support AI-assisted functionality.
-- Local model integration for selected tasks.
-- Potential for optional external AI services as the project evolves.
 
-### 🎁 Subscription and Rewards
-- Subscription management features.
-- A weekly giveaway mechanism designed to reward eligible participants.
+Bring intelligent assistance into selected workflows.
+
+- Natural-language food parsing.
+- Support for local AI models.
+- Architecture that can evolve with future integrations.
+
+</td>
+<td width="50%" valign="top">
+
+### 🎁 Subscriptions & Rewards
+
+Explore engagement features designed for the platform.
+
+- Subscription-related functionality.
+- A weekly giveaway mechanism.
+- Opportunities for future membership improvements.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🏗️ Project Architecture
+## 🧠 Where Health Meets AI
 
-Tandorost is being developed as a modular web application, with separate responsibilities for application logic, data storage, user-facing pages, and AI-related functionality.
+<div align="center">
 
-The current project is built around the following components:
+### From everyday language to useful nutrition insights
+
+```text
+       YOUR MEAL DESCRIPTION
+                 │
+                 ▼
+       📝 Natural-Language Input
+                 │
+                 ▼
+       🤖 Food Description Parser
+                 │
+                 ▼
+       🥗 Food & Quantity Estimation
+                 │
+                 ▼
+       📊 Estimated Nutrition Results
+                 │
+                 ▼
+       ✅ Review Before Saving
+```
+
+</div>
+
+Tandorost is designed to explore how AI can make nutrition tracking more convenient.
+
+For example, a user could describe a meal in everyday language rather than manually searching for every ingredient.
+
+The system can then attempt to identify foods, estimate quantities, and provide approximate calorie information.
+
+**Important:** These values are estimates, not guaranteed nutritional measurements. Accuracy depends on the available food data, portion information, and model performance.
+
+---
+
+## 🏗️ Architecture & Technology
+
+Tandorost follows a modular web-application approach, separating its main application logic, user interface, data storage, and AI-related functionality.
+
+### Technology Stack
+
+| Technology | Role |
+|---|---|
+| 🐍 Python | Application logic |
+| ⚗️ Flask | Web framework |
+| 🗄️ SQLite | Current database support |
+| 🎨 HTML & CSS | User interface and styling |
+| ⚡ JavaScript | Interactive frontend functionality |
+| 🧠 Local AI models | Selected AI-assisted tasks |
+
+### Simplified Project Structure
 
 ```text
 Tandorost/
 │
-├── app.py
-│   └── Main Flask application and web routes
+├── app.py                    # Main Flask application
 │
-├── templates/
-│   └── HTML templates and user interface pages
+├── templates/                # HTML templates
 │
-├── static/
-│   └── Static assets, styles, and frontend resources
+├── static/                   # CSS, JavaScript, and assets
 │
-├── models/
-│   └── Directory for model-related resources
+├── models/                   # Model-related resources
 │
-├── food_estimator.py
-│   └── Food estimation functionality
+├── food_estimator.py         # Food estimation
 │
-├── ai_food_parser.py
-│   └── Natural-language food description parsing
+├── ai_food_parser.py         # Natural-language food parsing
 │
-├── run_weekly_lottery.py
-│   └── Standalone weekly lottery runner
+├── run_weekly_lottery.py     # Weekly lottery runner
 │
-├── README_FA.md
-│   └── Persian project documentation
+├── README.md                 # English documentation
 │
-└── README.md
-    └── English project documentation
+└── README_FA.md              # Persian documentation
 ```
 
-*This is a simplified overview of the main project components, not a complete representation of every file or dependency.*
-
-### Architectural Principles
-
-- **Modularity:** Keep major responsibilities separated to make future development easier.
-- **Maintainability:** Organize application logic so that new features can be introduced incrementally.
-- **Extensibility:** Leave room for future AI services, data sources, and health-related modules.
-- **User-centered design:** Prioritize clear navigation and accessible functionality.
-- **Responsible AI:** Treat AI-generated nutrition estimates as estimates that users should be able to review, rather than guaranteed medical or nutritional facts.
+*This is a simplified overview of selected project components. The actual repository may contain additional files and modules.*
 
 ---
 
-## 🛠️ Technology Stack
+## 🛡️ Built with Responsibility in Mind
 
-| Technology | Purpose |
-|---|---|
-| Python | Core application logic |
-| Flask | Web application framework |
-| SQLite | Database support in the current application |
-| HTML and CSS | User interface and styling |
-| JavaScript | Interactive frontend functionality |
-| Local AI models | AI-assisted processing for supported features |
+Health technology should be useful, understandable, and developed responsibly.
 
-The technology stack may evolve as the project grows.
+Tandorost aims to improve its approach to:
+
+- 🔐 Account security and access control.
+- 🗃️ Responsible handling of health-related information.
+- 🧩 Maintainable and extensible application architecture.
+- 🧠 Transparent use of AI-generated estimates.
+- 📖 Clear documentation and understandable user experiences.
+
+Security, privacy, and deployment configurations must be evaluated before the platform is used with real or sensitive health information.
 
 ---
 
-## 🗺️ Development Roadmap
+## 🗺️ The Road Ahead
 
-Tandorost is being developed incrementally. Potential development priorities include:
+Tandorost is an ongoing development project. Its priorities may evolve as the platform grows.
 
-- [ ] Improve consistency across the user interface.
-- [ ] Expand and refine nutrition estimation.
-- [ ] Improve AI integration and error handling.
-- [ ] Strengthen authentication and application security.
-- [ ] Expand personal health tracking tools.
-- [ ] Improve health information organization and discoverability.
-- [ ] Refine scientific community features.
-- [ ] Improve deployment and database configuration.
-- [ ] Expand testing and documentation.
+- [ ] Refine the overall user experience.
+- [ ] Improve nutrition estimation and food recognition.
+- [ ] Strengthen AI integration and error handling.
+- [ ] Expand personal health tools.
+- [ ] Improve scientific community features.
+- [ ] Strengthen authentication and security.
+- [ ] Improve testing and technical documentation.
 - [ ] Explore additional data sources and optional AI providers.
+- [ ] Continue improving deployment and database architecture.
 
-These items describe development goals; they do not imply that every feature is already complete.
-
----
-
-## 🔒 Privacy and Security
-
-Health-related information deserves careful handling.
-
-The project aims to improve data protection, access control, and responsible handling of user information as development progresses.
-
-Before using the platform with real or sensitive health information, its security, privacy practices, deployment configuration, and data-storage mechanisms should be reviewed.
+These are development goals, not a claim that every item is already complete.
 
 ---
 
-## ⚠️ Disclaimer
+## 🌍 The Vision
 
-Tandorost is a software project for health information management and educational purposes.
+We believe technology can help people interact with health information in more useful ways.
 
-AI-generated food and calorie estimates may be inaccurate. The platform should not be treated as a substitute for professional medical advice, diagnosis, or treatment.
+Tandorost is being developed toward a connected digital experience where personal tools, nutrition insights, educational resources, and intelligent assistance work together.
 
----
+This is only the beginning.
 
-## 📌 Project Status
+<div align="center">
 
-**Status: Under Development**
+# 🚀 Tandorost Is Coming Soon
 
-Tandorost is being built toward a broader, integrated health platform. Features, architecture, and user experience may change as development continues.
+### A smarter health experience is on its way.
 
-## 🚀 Coming Soon
+**Built with Python. Driven by curiosity. Designed around health.**
 
-**Tandorost is coming soon.**
+<br>
 
-We are working toward bringing its health tools, nutrition features, and AI-assisted capabilities together in a more complete experience.
+<img src="https://img.shields.io/badge/Status-Coming_Soon-10B981?style=for-the-badge&logo=rocket&logoColor=white" alt="Coming soon" />
 
-Stay tuned for updates.
+<br><br>
 
----
+*Thank you for your interest in Tandorost.*
 
-*Built with Python, Flask, and a vision for more accessible digital health tools.*
+</div>
